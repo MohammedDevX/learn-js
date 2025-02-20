@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label for="">Verbe : </label>
+    <select name="verbs" class="verbe" onchange="present()">
+        <option value="">Slectionner un verbe</option>
+        <option value="accepter">Accepter</option>
+        <option value="acheter">Acheter</option>
+        <option value="aider">Aider</option>
+        <option value="aimer">Aimer</option>
+        <option value="ajouter">Ajouter</option>
+        <option value="appeler">Appeler</option>
+        <option value="apporter">Apporter</option>
+        <option value="approcher">Approcher</option>
+        <option value="appuyer">Appuyer</option>
+        <option value="arrêter">Arrêter</option>
+        <option value="arriver">Arriver</option>
+        <option value="assurer">Assurer</option>
+        <option value="avancer">Avancer</option>
+        <option value="briller">Briller</option>
+        <option value="brûler">Brûler</option>
+        <option value="cacher">Cacher</option>
+        <option value="causer">Causer</option>
+        <option value="cesser">Cesser</option>
+        <option value="changer">Changer</option>
+        <option value="chanter">Chanter</option>
+        <option value="charger">Charger</option>
+        <option value="chercher">Chercher</option>
+        <option value="commencer">Commencer</option>
+        <option value="compter">Compter</option>
+        <option value="continuer">Continuer</option>
+        <option value="coucher">Coucher</option>
+        <option value="crier">Crier</option>
+        <option value="décider">Décider</option>
+        <option value="demander">Demander</option>
+        <option value="deviner">Deviner</option>
+        <option value="donner">Donner</option>
+        <option value="écouter">Écouter</option>
+        <option value="élever">Élever</option>
+        <option value="embrasser">Embrasser</option>
+        <option value="emporter">Emporter</option>
+        <option value="entrer">Entrer</option>
+        <option value="envoyer">Envoyer</option>
+        <option value="espérer">Espérer</option>
+        <option value="essayer">Essayer</option>
+        <option value="exister">Exister</option>
+        <option value="expliquer">Expliquer</option>
+        <option value="exprimer">Exprimer</option>
+        <option value="fermer">Fermer</option>
+        <option value="former">Former</option>
+        <option value="frapper">Frapper</option>
+        <option value="gagner">Gagner</option>
+        <option value="garder">Garder</option>
+        <option value="glisser">Glisser</option>
+        <option value="jeter">Jeter</option>
+        <option value="jouer">Jouer</option>
+        <option value="juger">Juger</option>
+        <option value="lever">Lever</option>
+        <option value="manger">Manger</option>
+        <option value="manquer">Manquer</option>
+        <option value="marcher">Marcher</option>
+        <option value="monter">Monter</option>
+        <option value="montrer">Montrer</option>
+        <option value="nommer">Nommer</option>
+        <option value="occuper">Occuper</option>
+        <option value="oublier">Oublier</option>
+        <option value="parler">Parler</option>
+        <option value="passer">Passer</option>
+        <option value="payer">Payer</option>
+        <option value="penser">Penser</option>
+        <option value="placer">Placer</option>
+        <option value="pleurer">Pleurer</option>
+        <option value="porter">Porter</option>
+        <option value="poser">Poser</option>
+        <option value="posséder">Posséder</option>
+        <option value="pousser">Pousser</option>
+        <option value="préparer">Préparer</option>
+        <option value="présenter">Présenter</option>
+        <option value="prier">Prier</option>
+        <option value="prononcer">Prononcer</option>
+        <option value="quitter">Quitter</option>
+        <option value="raconter">Raconter</option>
+        <option value="rappeler">Rappeler</option>
+        <option value="refuser">Refuser</option>
+        <option value="regarder">Regarder</option>
+        <option value="rencontrer">Rencontrer</option>
+        <option value="rentrer">Rentrer</option>
+        <option value="répéter">Répéter</option>
+        <option value="ressembler">Ressembler</option>
+        <option value="rester">Rester</option>
+        <option value="retourner">Retourner</option>
+        <option value="retrouver">Retrouver</option>
+        <option value="rêver">Rêver</option>
+        <option value="rouler">Rouler</option>
+        <option value="sauver">Sauver</option>
+        <option value="sembler">Sembler</option>
+        <option value="tirer">Tirer</option>
+        <option value="tomber">Tomber</option>
+        <option value="toucher">Toucher</option>
+        <option value="tourner">Tourner</option>
+        <option value="travailler">Travailler</option>
+        <option value="traverser">Traverser</option>
+        <option value="tromper">Tromper</option>
+        <option value="trouver">Trouver</option>
+        <option value="tuer">Tuer</option>
+        <option value="voler">Voler</option>
+        <option value="voyager">Voyager</option>
+    </select> <br>
+    <!-- <table border='1'>
+        <tr>
+            <th>Je</th>
+            <td><p class="p1"></p></td>
+        </tr>
+        <tr>
+            <th>Tu</th>
+            <td class="p2"></td>
+        </tr>
+        <tr>
+            <th>Il / Elle</th>
+            <td class="p3"></td>
+        </tr>
+        <tr>
+            <th>Nous</th>
+            <td class="p4"></td>
+        </tr>
+        <tr>
+            <th>Vous</th>
+            <td class="p5"></td>
+        </tr>
+        <tr>
+            <th>Ils / Elles</th>
+            <td class="p6"></td>
+        </tr>
+    </table> -->
+
+
+    <ul class="liste">
+        <li></li>
+    </ul>
+
+    <script src="main.js"></script>
+</body>
+</html>

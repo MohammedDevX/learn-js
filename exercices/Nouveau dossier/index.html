@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- ex1 : 
+    Nom : <select class="nom">
+        <option value="">Selectionner un produit</option>
+        <option value="Clavier">Clavier</option>
+        <option value="Souris">Souris</option>
+        <option value="Pc">Pc</option>
+    </select> <br>
+    Prix : <input type="text" class="prix"> <br>
+    Quantite : <input type="text" class="quantite"> <br>
+    HT : <input type="text" class="ht" disabled> <br>
+    TVA : <input type="text" class="tva" disabled> <br>
+    TTC : <input type="text" class="ttc" disabled> <br>
+    <input type="button" value="Click" onclick="handleClick()">
+    <input type="button" value="Reset">
+    -->
+
+
+    <!-- ex2 :
+    DH : <input type="text" class="dh" onkeyup="DhToDollar()"> <br>
+    Dollar : <input type="text" class="dollar" onkeyup="DollarToDh()">
+    -->
+
+
+    
+    <!-- ex2 :
+    Prix : <input type="text" class="prix"> <br>
+    <input type="radio" name="convert" class="dh" onclick="DhToDollar()"> DH -> Dollar <br>
+    <input type="radio" name="convert" class="dollar" onclick="DhToDollar()"> Dollar -> DH
+    <p class="result"></p>
+    -->
+
+
+
+    <input type="number" class="num"> <br>
+    <input type="button" value="Ajouter" class="ajouter" onclick="ajouter()">
+    <input type="button" value="Afficher" class="afficher" onclick="afficher()">
+    <input type="button" value="Somme" class="somme" onclick="somme()">
+    <input type="button" value="Moyenne" class="moyenne" onclick="moyenne()">
+    <input type="button" value="Max" class="max">
+    <input type="button" value="Min" class="min">
+    <div class="affichage"></div>
+    <script src="main.js"></script>
+</body>
+</html>

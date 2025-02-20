@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        table {
+            width: 24%;
+            margin: auto;
+            margin-top: 10%;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <table>
+            <tr>
+                <td>Nom produit : </td>
+                <td><select class="nom">
+                    <option>Choisir votre produit : </option>
+                    <option value="Clavier">Clavier</option>
+                    <option value="Souris">Souris</option>
+                    <option value="Pc">Pc</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td>Prix : </td>
+                <td><input type="text" class="prix"></td>
+            </tr>
+            <tr>
+                <td>Quantité : </td>
+                <td><input type="text" class="quantite"></td>
+            </tr>
+            <tr>
+                <td>Montant HT : </td>
+                <td><input type="text" disabled class="ht"></td>
+            </tr>
+            <tr>
+                <td>Montant TVA : </td>
+                <td><input type="text" disabled class="tva"></td>
+            </tr>
+            <tr>
+                <td>Montant TTC : </td>
+                <td><input type="text" disabled class="ttc"></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="button" class="click" value="submit" onclick="{handleClick()}">
+                    <input type="reset" class="reset" value="reset" onclick="{reset()}">
+                </td>
+            </tr>
+        </table>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
