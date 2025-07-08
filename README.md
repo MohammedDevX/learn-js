@@ -23,13 +23,7 @@
     <p>Clone the project:</p>
     <pre><code>git clone https://github.com/MohammedDevX/js-learnhub.git</code></pre>
 
-<p>Navigate to the project directory:</p>
-    <pre><code>cd js-learnhub</code></pre>
-
 <p>Open the <strong>index.html</strong> file in your browser to start learning.</p>
-
-<h2>📜 License</h2>
-    <p>This project is licensed under the <strong>MIT License</strong>. Feel free to use and modify it.</p>
 
 <h2>📩 Contact</h2>
     <p>📧 For questions or suggestions, contact me via GitHub: <a href="https://github.com/MohammedDevX">MohammedDevX</a></p>
